@@ -3,17 +3,17 @@
 Застосунок отримує геолокацію користувача, зберігає її в Room та показує список кешованих координат.
 ## Архітектура
 Проєкт побудований за Clean Architecture:
-- data
-- domain
-- presentation
+data
+  domain
+  presentation
 Використані технології:
-- Kotlin
-- Jetpack Compose
-- Room
-- Koin
-- Coroutines
-- Flow
-- FusedLocationProvider
+ Kotlin
+  Jetpack Compose
+ Room
+ Koin
+ Coroutines
+ Flow
+ FusedLocationProvider
 ## Запуск
 1. Відкрити проєкт в Android Studio
 2. Sync Gradle
@@ -21,7 +21,7 @@
 4. Надати дозвіл на геолокацію
 5. Натиснути "Отримати позицію"
 ## Функціонал
-- Отримання GPS координат
-- Збереження в Room
-- Відображення кешу
-- Очищення кешу
+Отримання GPS координат
+ Збереження в Room
+ Відображення кешу
+ Очищення кешу
